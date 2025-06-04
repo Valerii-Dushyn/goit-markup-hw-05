@@ -557,8 +557,8 @@ h6 {
   border: none;
 }
 
-.modal-close-icon:hover,
-.modal-close-icon:focus {
+.modal-close:hover .modal-close-icon,
+.modal-close:focus .modal-close-icon {
   fill: #ffffff;
 }
 
@@ -674,7 +674,6 @@ h6 {
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  margin-right: ;
   display: inline-flex;
   align-items: center;
   justify-content: center;
